@@ -1,0 +1,9 @@
+student_id,temperature,pressure,vibration,shift,status
+A101,71.2,30.1,0.12,day,normal
+A102,73.9,29.8,0.18,day,normal
+A103,88.5,33.4,0.92,night,review
+A104,69.8,30.0,0.10,day,normal
+A105,91.1,34.0,1.20,night,review
+A106,72.4,29.9,0.14,day,normal
+A107,75.0,31.2,0.25,night,normal
+A108,68.9,30.3,0.09,day,normal
