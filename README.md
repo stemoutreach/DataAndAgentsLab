@@ -100,21 +100,6 @@ This path focuses more on:
 - validation and guardrails
 - evaluating weak or misleading outputs
 
-## Suggested Repository Structure
-
-```text
-.
-├── README.md
-├── 01-training-paths-summary.md
-├── 02-foundations-guide.md
-├── 03-classic-ai-training-guide.md
-├── 04-agentic-ai-training-guide.md
-├── 05-using-ai-well.md
-├── 06-python-for-jupyter-notebook-challenges.md
-├── 07-pandas-and-data-basics.md
-└── 08-apis-json-and-live-data.md
-```
-
 ## How To Use This Repo
 
 A good approach is:
