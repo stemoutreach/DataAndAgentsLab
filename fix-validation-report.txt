@@ -1,5 +1,0 @@
-README.md: 69 lines
-01-training-paths-summary.md: 72 lines
-10-plotting-and-data-visualization.md: MISSING
-12-how-to-use-the-practice-notebooks.md: 125 lines
-17-four-week-study-plan.md: 336 lines
