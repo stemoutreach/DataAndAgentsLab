@@ -26,6 +26,10 @@ You will need:
 - access to the notebook files
 - access to the repo data files if the notebook uses a CSV
 
+Helpful starting points:
+- [Google Colab home](https://colab.research.google.com/)
+- [Google Colab intro notebook](https://colab.research.google.com/notebooks/intro.ipynb)
+
 Recommended first notebook:
 - `notebooks/00-notebook-basics-practice.ipynb`
 
@@ -37,12 +41,13 @@ For the full sequence, see:
 
 ## Best Student Start Path
 
-1. Find the notebook you want to use in the repository.
-2. If the notebook is in **GitHub**, open it from Colab using the GitHub option.
-3. If the notebook is in **GitLab**, download the `.ipynb` file and upload it into Colab.
-4. Save your own copy if needed.
-5. Run the cells from top to bottom.
-6. Read the instructions before changing code.
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Find the notebook you want to use in the repository.
+3. If the notebook is in **GitHub**, open it from Colab using the GitHub option.
+4. If the notebook is in **GitLab**, download the `.ipynb` file and upload it into Colab.
+5. Save your own copy if needed.
+6. Run the cells from top to bottom.
+7. Read the instructions before changing code.
 
 ---
 
@@ -52,7 +57,7 @@ This is usually the easiest option when the notebook is stored in GitHub.
 
 ### Steps
 
-1. Open Google Colab.
+1. Open [Google Colab](https://colab.research.google.com/).
 2. In the file open window, choose the **GitHub** tab.
 3. Paste the repo URL or search for the repository.
 4. Select the notebook you want to open.
@@ -76,7 +81,7 @@ If the notebooks are stored in GitLab, the easiest student workflow is usually:
 2. Navigate to the `notebooks/` folder.
 3. Select the notebook you want to use.
 4. Download the `.ipynb` file.
-5. Open Google Colab.
+5. Open [Google Colab](https://colab.research.google.com/).
 6. In the file open window, choose the **Upload** option.
 7. Upload the notebook file.
 8. Save your own copy if needed.
@@ -94,7 +99,7 @@ This is useful for pilots or when a notebook is shared directly.
 
 ### Steps
 
-1. Open Google Colab.
+1. Open [Google Colab](https://colab.research.google.com/).
 2. In the file open window, choose the **Upload** option.
 3. Select the `.ipynb` file from your computer.
 4. Wait for it to load.
@@ -111,7 +116,7 @@ This works well if notebooks are shared through Drive.
 ### Steps
 
 1. Put the notebook file into Google Drive.
-2. Open Google Colab.
+2. Open [Google Colab](https://colab.research.google.com/).
 3. Choose the **Google Drive** tab.
 4. Select the notebook.
 5. Open it and save your own copy if needed.
@@ -193,7 +198,7 @@ If your class or team stores notebooks in GitLab, this is the simplest workflow:
 
 1. Open GitLab
 2. Download the notebook file
-3. Open Colab
+3. Open [Google Colab](https://colab.research.google.com/)
 4. Upload the notebook
 5. Upload the matching CSV if the notebook needs one
 6. Save your own copy
