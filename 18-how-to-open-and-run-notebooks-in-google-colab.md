@@ -2,7 +2,7 @@
 
 This guide shows students how to open and run the practice notebooks in **Google Colab**.
 
-Google Colab is a browser-based notebook environment. Google describes Colab as a hosted Jupyter notebook service that requires no setup and provides a student-friendly browser interface. citeturn640187search0
+Google Colab is a browser-based notebook environment. Google describes Colab as a hosted Jupyter notebook service that requires no setup and provides a student-friendly browser interface.
 
 For most students, this is the easiest way to use the notebooks.
 
