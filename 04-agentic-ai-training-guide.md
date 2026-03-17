@@ -62,6 +62,37 @@ Example structure:
 
 Students should learn that vague prompts often create vague outputs.
 
+### Worked Example: Weak vs Strong Prompt
+
+Weak prompt:
+
+```text
+Summarize this alert.
+```
+
+Possible weak output:
+
+```text
+Something may be wrong with the machine.
+```
+
+Stronger prompt:
+
+```text
+You are a maintenance assistant. Summarize this alert in 1 sentence. Include machine ID, temperature, and whether review is needed.
+```
+
+Possible stronger output:
+
+```text
+Machine M-102 is at 89.7 and needs review.
+```
+
+What to notice:
+- the stronger prompt gives role, task, and output expectations
+- the result is more specific and easier to use
+- prompt structure changes output quality
+
 ## Part 3: Functions as Tools
 
 A big part of agentic work is turning Python functions into useful tools.
@@ -74,6 +105,30 @@ Students should practice:
 - understanding why the tool exists
 
 This is where Python skill matters a lot.
+
+### Worked Example: Tool Function
+
+```python
+def build_alert_record(machine_id, temperature, status):
+    return {
+        "machine_id": machine_id,
+        "temperature": temperature,
+        "status": status
+    }
+
+print(build_alert_record("M-102", 89.7, "review"))
+```
+
+Expected output:
+
+```python
+{'machine_id': 'M-102', 'temperature': 89.7, 'status': 'review'}
+```
+
+What to notice:
+- the function returns structured data
+- that structure can be reused in later steps
+- tools make workflows more reliable
 
 ## Part 4: Context and State
 
@@ -98,6 +153,25 @@ Students should practice breaking an AI system into steps, such as:
 5. return a final answer
 
 This helps students understand that good systems are often built from smaller parts.
+
+### Worked Example: Small Workflow
+
+```python
+record = build_alert_record("M-102", 89.7, "review")
+prompt = f"Summarize this alert in 1 sentence: {record}"
+print(prompt)
+```
+
+Expected output:
+
+```python
+Summarize this alert in 1 sentence: {'machine_id': 'M-102', 'temperature': 89.7, 'status': 'review'}
+```
+
+What to notice:
+- one step builds structure
+- the next step uses that structure to prepare an AI call
+- workflows connect steps together
 
 ## Part 6: Evaluating Output Quality
 

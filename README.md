@@ -121,3 +121,8 @@ Short version:
 This repo is meant to get students doing meaningful work quickly.
 
 Open a notebook. Try the task. Test your result. Ask focused questions. Keep learning.
+
+
+## Phase 4 Improvements
+
+Several guides now include short worked examples with code, expected output, and what to notice.

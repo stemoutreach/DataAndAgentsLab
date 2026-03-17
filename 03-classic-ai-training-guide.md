@@ -47,6 +47,36 @@ Questions to ask:
 - Which columns seem useful?
 - Is anything missing or suspicious?
 
+### Worked Example: Exploring a Small Dataset
+
+```python
+import pandas as pd
+
+df = pd.DataFrame({
+    "temperature": [71.2, 89.7, 73.4],
+    "vibration": [0.12, 1.05, 0.18],
+    "status": ["normal", "review", "normal"]
+})
+
+print(df.head())
+print(df.columns)
+```
+
+Expected output:
+
+```python
+   temperature  vibration  status
+0         71.2       0.12  normal
+1         89.7       1.05  review
+2         73.4       0.18  normal
+Index(['temperature', 'vibration', 'status'], dtype='object')
+```
+
+What to notice:
+- the second row looks unusual
+- `temperature` and `vibration` are likely useful features
+- `status` looks like an outcome or label
+
 ## Part 2: Beginner pandas Skills
 
 Students should become comfortable with:
@@ -74,6 +104,26 @@ Good beginner questions:
 - Which columns are identifiers only?
 - Are there text fields that need special handling?
 - Are some values missing or inconsistent?
+
+### Worked Example: Choosing Useful Columns
+
+```python
+feature_df = df[["temperature", "vibration"]]
+print(feature_df)
+```
+
+Expected output:
+
+```python
+   temperature  vibration
+0         71.2       0.12
+1         89.7       1.05
+2         73.4       0.18
+```
+
+What to notice:
+- this smaller table keeps only the fields likely useful for simple detection
+- removing unnecessary columns can make later work easier
 
 ## Part 4: Train, Validation, and Test Thinking
 
@@ -139,6 +189,30 @@ Example ideas:
 - flag incomplete rows
 - add threshold checks
 - require manual review for risky cases
+
+### Worked Example: Simple Guardrail
+
+```python
+def needs_review(temp, vibration):
+    return temp >= 85 or vibration >= 0.90
+
+print(needs_review(72, 0.12))
+print(needs_review(90, 0.20))
+print(needs_review(70, 1.05))
+```
+
+Expected output:
+
+```python
+False
+True
+True
+```
+
+What to notice:
+- this is a simple rule, not a full model
+- even simple checks can help catch suspicious cases
+- guardrails are useful when stakes matter
 
 ## Part 9: Interpreting and Reporting Results
 

@@ -41,6 +41,34 @@ Students should practice:
 - noticing nested structure
 - printing one small part at a time
 
+### Worked Example: Nested JSON
+
+```python
+sample_data = {
+    "site": "Plant-7",
+    "readings": [
+        {"machine": "M-101", "temperature": 71.2, "meta": {"shift": "day", "zone": "A"}},
+        {"machine": "M-102", "temperature": 89.7, "meta": {"shift": "night", "zone": "B"}}
+    ]
+}
+
+print(sample_data["site"])
+print(sample_data["readings"][1]["machine"])
+print(sample_data["readings"][1]["meta"]["zone"])
+```
+
+Expected output:
+
+```python
+Plant-7
+M-102
+B
+```
+
+What to notice:
+- JSON can be nested several levels deep
+- inspecting one small part at a time makes it easier to understand
+
 ## Part 3: Requesting Data
 
 Students should understand the basic idea of:
@@ -50,6 +78,7 @@ Students should understand the basic idea of:
 - converting the result into Python data
 
 Example:
+
 ```python
 import requests
 
@@ -70,6 +99,31 @@ Helpful habits:
 - print the keys
 - print one item
 - avoid trying to understand the whole response at once
+
+### Worked Example: Build a Smaller Table
+
+```python
+records = []
+for reading in sample_data["readings"]:
+    records.append({
+        "machine": reading["machine"],
+        "temperature": reading["temperature"],
+        "zone": reading["meta"]["zone"]
+    })
+
+print(records)
+```
+
+Expected output:
+
+```python
+[{'machine': 'M-101', 'temperature': 71.2, 'zone': 'A'},
+ {'machine': 'M-102', 'temperature': 89.7, 'zone': 'B'}]
+```
+
+What to notice:
+- not all JSON is already table-shaped
+- sometimes you need to build a smaller structure that keeps only the useful fields
 
 ## Part 5: Turning JSON Into a Table
 

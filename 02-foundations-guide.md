@@ -69,14 +69,25 @@ Students should know how to:
 - noticing whether output changed
 - restarting and re-running when the notebook gets out of sync
 
-### Common Problems
+### Worked Example: Cell Order
 
-Students should expect to encounter:
-- running cells in the wrong order
-- changing a variable in one cell and forgetting it affects later cells
-- syntax errors from missing punctuation
-- name errors from using a variable that was never created
-- confusion about whether code has actually run
+```python
+points = 5
+bonus = 2
+total = points + bonus
+print(total)
+```
+
+Expected output:
+
+```python
+7
+```
+
+What to notice:
+- this code depends on `points` and `bonus` being defined first
+- if you run a later cell before these variables exist, the notebook can fail
+- notebook order matters
 
 ## Part 2: Python Basics
 
@@ -100,6 +111,19 @@ for name in names:
     print(greet(name))
 ```
 
+Expected output:
+
+```python
+Hello, Ava!
+Hello, Luis!
+Hello, Mia!
+```
+
+What to notice:
+- the function is reused three times
+- the loop sends each name into the function
+- the output pattern helps confirm the code is working
+
 ## Part 3: Reading and Debugging Code
 
 Students do not need to write everything from scratch to be successful. But they do need to read code and understand what is happening.
@@ -121,6 +145,37 @@ Students do not need to write everything from scratch to be successful. But they
 - Type errors
 - indentation mistakes
 - forgetting to run earlier cells
+
+### Worked Example: Reading an Error
+
+Broken code:
+
+```python
+message = "Hello
+print(message)
+```
+
+Example error:
+
+```python
+SyntaxError: unterminated string literal
+```
+
+What it means:
+- Python found the start of a string but never found the closing quote
+
+Fixed code:
+
+```python
+message = "Hello"
+print(message)
+```
+
+Expected output:
+
+```python
+Hello
+```
 
 ### Good Debugging Habits
 
@@ -146,6 +201,34 @@ Helpful beginner tasks:
 - count rows
 - describe simple patterns
 
+### Worked Example: Reading a Table
+
+```python
+import pandas as pd
+
+df = pd.DataFrame({
+    "machine": ["M-101", "M-102", "M-103"],
+    "temperature": [71.2, 89.7, 73.4],
+    "status": ["normal", "review", "normal"]
+})
+
+print(df.head())
+```
+
+Expected output:
+
+```python
+  machine  temperature  status
+0   M-101         71.2  normal
+1   M-102         89.7  review
+2   M-103         73.4  normal
+```
+
+What to notice:
+- each row is one machine reading
+- each column stores one kind of information
+- the second row already looks interesting because its status is `review`
+
 ## Part 5: Reading Challenge-Style Notebook Tasks
 
 Many challenge notebooks include starter code, examples, hints, and TODO sections.
@@ -157,13 +240,37 @@ Students should practice:
 - avoiding edits to setup code unless told to change it
 - checking what type of output is expected
 
-### Good Habits
+### Worked Example: TODO Repair
 
-- read surrounding cells before editing
-- understand what the starter code already does
-- make small edits first
-- run the cell and inspect the output immediately
-- compare expected vs actual results
+Starter code:
+
+```python
+def double_value(x):
+    # TODO: fix this line
+    return x + 2
+
+print(double_value(4))
+```
+
+Expected output should be:
+
+```python
+8
+```
+
+Fixed code:
+
+```python
+def double_value(x):
+    return x * 2
+
+print(double_value(4))
+```
+
+What to notice:
+- only one line needed to change
+- reading the expected output helps you know what to fix
+- challenge notebooks often work this way
 
 ## Part 6: Simple Plotting and Interpretation
 

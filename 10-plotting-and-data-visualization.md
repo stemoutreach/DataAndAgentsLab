@@ -1,8 +1,8 @@
-# Plotting and Data Visualization Essentials
+# Plotting and Data Visualization
 
 This guide gives students a lightweight introduction to charts and simple visual interpretation for Jupyter notebook work.
 
-With a 4-week prep window, this guide is meant to be practical and focused, not deep.
+The goal is not deep charting skill. The goal is to help students use simple visuals to inspect data and explain what they see.
 
 ---
 
@@ -47,6 +47,45 @@ Useful for:
 Useful for:
 - comparing two numeric variables
 - spotting clusters or outliers
+
+## Worked Example: Bar Chart
+
+```python
+import matplotlib.pyplot as plt
+
+labels = ["day", "night"]
+counts = [5, 3]
+
+plt.bar(labels, counts)
+plt.xlabel("Shift")
+plt.ylabel("Count")
+plt.title("Readings by Shift")
+plt.show()
+```
+
+What to notice:
+- bar charts compare categories
+- the x-axis shows group names
+- the y-axis shows how many are in each group
+
+## Worked Example: Histogram
+
+```python
+import matplotlib.pyplot as plt
+
+temps = [71.2, 72.5, 73.1, 89.7, 74.0, 73.8]
+
+plt.hist(temps)
+plt.xlabel("Temperature")
+plt.ylabel("Frequency")
+plt.title("Temperature Distribution")
+plt.show()
+```
+
+What to notice:
+- most values may cluster in one area
+- unusual high or low values stand out more clearly
+- histograms help show distribution, not categories
 
 ## Part 3: Reading a Plot
 
