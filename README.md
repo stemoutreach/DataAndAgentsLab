@@ -126,3 +126,19 @@ Open a notebook. Try the task. Test your result. Ask focused questions. Keep lea
 ## Phase 4 Improvements
 
 Several guides now include short worked examples with code, expected output, and what to notice.
+
+
+## Phase 5 Additions
+
+New support files:
+- `13-glossary.md`
+- `14-progress-checklist.md`
+- `15-mentor-guide.md`
+
+New dataset:
+- `data/practice_equipment_data.csv`
+
+Visual assets:
+- `assets/learning-path-diagram.png`
+- `assets/notebook-anatomy.png`
+- `assets/sample-histogram.png`
