@@ -142,3 +142,5 @@ Visual assets:
 - `assets/learning-path-diagram.png`
 - `assets/notebook-anatomy.png`
 - `assets/sample-histogram.png`
+
+- `16-using-free-ai-tools.md`

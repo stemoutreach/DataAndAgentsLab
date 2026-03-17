@@ -123,3 +123,8 @@ They are the ones who:
 - debug calmly
 - use AI wisely
 - explain their work
+
+
+## AI Tool Access Note
+
+Students do not need paid AI accounts for this repo. See `16-using-free-ai-tools.md` for the student-facing practical guide.

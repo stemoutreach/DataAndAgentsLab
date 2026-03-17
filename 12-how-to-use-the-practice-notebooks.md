@@ -99,3 +99,6 @@ Once you finish notebooks 00-06, move into the Phase 3 notebooks to build more c
 - use `08-plotting-and-interpretation.ipynb` to practice chart reading
 - use `09-agentic-workflow-practice.ipynb` to get a more realistic workflow experience
 - use `10-multi-step-data-investigation.ipynb` to connect several data skills together
+
+
+For practical help using free AI accounts, see `16-using-free-ai-tools.md`.
