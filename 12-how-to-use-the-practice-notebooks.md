@@ -18,6 +18,10 @@ Complete the notebooks in this order:
 5. `notebooks/04-ai-assisted-problem-solving-practice.ipynb`
 6. `notebooks/05-mini-classic-ai-challenge.ipynb`
 7. `notebooks/06-mini-agentic-ai-challenge.ipynb`
+8. `notebooks/07-debugging-practice.ipynb`
+9. `notebooks/08-plotting-and-interpretation.ipynb`
+10. `notebooks/09-agentic-workflow-practice.ipynb`
+11. `notebooks/10-multi-step-data-investigation.ipynb`
 
 Do not skip straight to the hardest notebook.
 
@@ -83,3 +87,15 @@ You are in good shape when you can:
 - describe what you changed
 - show that you tested the result
 - explain why the answer makes sense
+
+
+---
+
+## After the First 7 Notebooks
+
+Once you finish notebooks 00-06, move into the Phase 3 notebooks to build more confidence:
+
+- use `07-debugging-practice.ipynb` if errors slow you down
+- use `08-plotting-and-interpretation.ipynb` to practice chart reading
+- use `09-agentic-workflow-practice.ipynb` to get a more realistic workflow experience
+- use `10-multi-step-data-investigation.ipynb` to connect several data skills together

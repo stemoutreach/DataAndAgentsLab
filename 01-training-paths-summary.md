@@ -58,3 +58,18 @@ Focus more on:
 - `08-apis-json-and-live-data.md`
 - `09-debugging-and-testing.md`
 - `10-plotting-and-data-visualization.md`
+
+
+## Phase 3 Notebook Additions
+
+To deepen practice, the repo now also includes:
+- `notebooks/07-debugging-practice.ipynb`
+- `notebooks/08-plotting-and-interpretation.ipynb`
+- `notebooks/09-agentic-workflow-practice.ipynb`
+- `notebooks/10-multi-step-data-investigation.ipynb`
+
+These notebooks strengthen:
+- debugging fluency
+- chart creation and interpretation
+- agentic workflow thinking
+- multi-step data investigation

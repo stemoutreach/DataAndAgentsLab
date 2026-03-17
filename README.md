@@ -74,9 +74,34 @@ Use a small dataset to inspect patterns, define a rule, test edge cases, and exp
 ### 06 Mini Agentic AI Challenge
 Practice prompt structure, tool functions, connected steps, and output evaluation.
 
+
+### 07 Debugging Practice
+Find and fix different bug types: syntax, name, type, logic, and notebook-order issues.
+
+### 08 Plotting and Interpretation
+Create simple charts and explain what they show.
+
+### 09 Agentic Workflow Practice
+Use a mock LLM and a tool function to practice a small prompt-and-workflow loop.
+
+### 10 Multi-Step Data Investigation
+Work through a larger dataset from inspection to cleaning, charting, rule-building, and summary.
+
 ## Data Files
 
 - `data/practice_sensor_data.csv`
+- `data/practice_sensor_data_large.csv`
+
+
+
+## Phase 3 Practice Notebooks
+
+These notebooks add deeper practice:
+
+- `notebooks/07-debugging-practice.ipynb`
+- `notebooks/08-plotting-and-interpretation.ipynb`
+- `notebooks/09-agentic-workflow-practice.ipynb`
+- `notebooks/10-multi-step-data-investigation.ipynb`
 
 ## Quick Support Files
 
