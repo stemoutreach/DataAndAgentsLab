@@ -1,8 +1,9 @@
 # 12 How to Use the Practice Notebooks
 
-This guide explains how students should use the sample Jupyter notebooks in this repository.
+This is the main student instruction file for using the sample Jupyter notebooks in this repository.
 
-The goal is not just to finish the notebooks. The goal is to learn how to solve problems, test ideas, and use AI well while working in notebooks.
+The goal is not just to finish notebooks quickly.
+The goal is to learn how to solve problems, test ideas, debug mistakes, and use AI well.
 
 ---
 
@@ -20,20 +21,18 @@ Complete the notebooks in this order:
 
 Do not skip straight to the hardest notebook.
 
-Build confidence step by step.
-
 ---
 
 ## How to Work Through a Notebook
 
 For each notebook:
 
-1. Read the instructions before changing code.
-2. Try the task yourself first.
-3. Make one small change at a time.
+1. Read the instructions first.
+2. Try the task yourself before using AI.
+3. Change one small thing at a time.
 4. Run the cell.
 5. Check the output.
-6. If you get stuck, ask AI one focused question.
+6. If stuck, ask AI one focused question.
 7. Test the result again.
 8. Be able to explain what changed and why.
 
@@ -42,29 +41,11 @@ For each notebook:
 ## What Good Practice Looks Like
 
 Good practice means:
-
 - reading carefully
 - testing your work
 - checking whether the answer makes sense
 - fixing small mistakes instead of giving up
 - using AI as a helper, not autopilot
-
-A good result is not just code that runs.
-
-A good result is something you understand and can explain.
-
----
-
-## What Not To Do
-
-Avoid these habits:
-
-- skipping the early notebooks
-- changing lots of code at once
-- copying full answers from AI without reading them
-- ignoring error messages
-- moving on without testing your result
-- submitting code you cannot explain
 
 ---
 
@@ -74,7 +55,7 @@ Try these steps:
 
 1. Reread the instructions.
 2. Check earlier cells.
-3. Look at the error message.
+3. Read the error message.
 4. Print values to inspect what is happening.
 5. Ask AI a specific question.
 6. Try one small fix.
@@ -85,8 +66,6 @@ Try these steps:
 
 ## Good Questions to Ask AI
 
-Better questions include:
-
 - What does this error message mean?
 - What is this code doing step by step?
 - Why is this function returning the wrong result?
@@ -94,43 +73,13 @@ Better questions include:
 - Can you help me debug this without giving the final answer?
 - I expected X but got Y. What could cause that?
 
-Avoid asking AI to do the whole notebook for you.
-
 ---
 
 ## How to Know You Are Done
 
 You are in good shape when you can:
-
 - run the notebook successfully
 - explain what the code is doing
 - describe what you changed
 - show that you tested the result
 - explain why the answer makes sense
-
----
-
-## Suggested Practice Rhythm
-
-A good practice session might look like this:
-
-- spend 20-30 minutes on one notebook
-- complete a few tasks carefully
-- test your work as you go
-- write down one thing you learned
-- note one question you still have
-
-This works better than rushing through many notebooks.
-
----
-
-## Final Reminder
-
-The notebooks are not just there to give you answers.
-
-They are there to help you learn how to:
-- think through a problem
-- work in Jupyter notebooks
-- debug mistakes
-- use AI wisely
-- build confidence step by step
