@@ -7,8 +7,6 @@ The goal is to learn how to solve problems, test ideas, debug mistakes, and use 
 
 For week-by-week pacing, also see [17-four-week-study-plan.md](./17-four-week-study-plan.md).
 
-![Notebook Anatomy](./assets/notebook-anatomy.png)
-
 ---
 
 ## Start Here
