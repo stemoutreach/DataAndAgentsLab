@@ -2,12 +2,16 @@
 
 This file is a short map of the repository.
 
+For the full pacing plan, read:
+- [17 Four-Week Study Plan](./17-four-week-study-plan.md)
+
 ## Best Student Start Path
 
 1. Read [12-how-to-use-the-practice-notebooks.md](./12-how-to-use-the-practice-notebooks.md)
-2. Open `notebooks/00-notebook-basics-practice.ipynb`
-3. Work through the notebook sequence
-4. Use the guides when you need support
+2. Read [17-four-week-study-plan.md](./17-four-week-study-plan.md)
+3. Open `notebooks/00-notebook-basics-practice.ipynb`
+4. Work through the notebook sequence
+5. Use the guides when you need support
 
 ## Notebook Sequence
 
@@ -18,6 +22,10 @@ This file is a short map of the repository.
 5. `notebooks/04-ai-assisted-problem-solving-practice.ipynb`
 6. `notebooks/05-mini-classic-ai-challenge.ipynb`
 7. `notebooks/06-mini-agentic-ai-challenge.ipynb`
+8. `notebooks/07-debugging-practice.ipynb`
+9. `notebooks/08-plotting-and-interpretation.ipynb`
+10. `notebooks/09-agentic-workflow-practice.ipynb`
+11. `notebooks/10-multi-step-data-investigation.ipynb`
 
 ## Learning Paths
 
@@ -59,17 +67,6 @@ Focus more on:
 - `09-debugging-and-testing.md`
 - `10-plotting-and-data-visualization.md`
 
+## Visual Map
 
-## Phase 3 Notebook Additions
-
-To deepen practice, the repo now also includes:
-- `notebooks/07-debugging-practice.ipynb`
-- `notebooks/08-plotting-and-interpretation.ipynb`
-- `notebooks/09-agentic-workflow-practice.ipynb`
-- `notebooks/10-multi-step-data-investigation.ipynb`
-
-These notebooks strengthen:
-- debugging fluency
-- chart creation and interpretation
-- agentic workflow thinking
-- multi-step data investigation
+![Learning Path](./assets/learning-path-diagram.png)
