@@ -67,3 +67,6 @@ Focus more on:
 - `09-debugging-and-testing.md`
 - `10-plotting-and-data-visualization.md`
 
+## Visual Map
+
+![Learning Path](./assets/learning-path-diagram.png)

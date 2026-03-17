@@ -59,6 +59,10 @@ Practice notebooks:
 - `notebooks/09-agentic-workflow-practice.ipynb`
 - `notebooks/10-multi-step-data-investigation.ipynb`
 
+## Visual Guide
+
+![Learning Path](./assets/learning-path-diagram.png)
+
 ## Notes
 
 This repo is ready for guided student practice and pilot use.
