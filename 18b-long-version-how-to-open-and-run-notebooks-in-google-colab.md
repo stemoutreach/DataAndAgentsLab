@@ -1,4 +1,4 @@
-# 18 How to Open and Run Notebooks in Google Colab
+# 18b long version How to Open and Run Notebooks in Google Colab
 
 This guide shows students how to open and run the practice notebooks in **Google Colab**.
 
