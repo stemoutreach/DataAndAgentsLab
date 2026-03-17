@@ -7,6 +7,8 @@ The goal is to learn how to solve problems, test ideas, debug mistakes, and use 
 
 For week-by-week pacing, also see [17-four-week-study-plan.md](./17-four-week-study-plan.md).
 
+![Notebook Anatomy](./assets/notebook-anatomy.png)
+
 ---
 
 ## Start Here
@@ -121,3 +123,6 @@ They are there to help you learn how to:
 - build confidence step by step
 
 For practical help using free AI accounts, see `16-using-free-ai-tools.md`.
+
+
+For step-by-step Colab instructions, see `18-how-to-open-and-run-notebooks-in-google-colab.md`.
