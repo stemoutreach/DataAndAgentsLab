@@ -2,9 +2,7 @@
 
 This guide shows students how to open and run the practice notebooks in **Google Colab**.
 
-Google Colab is a browser-based notebook environment. Google describes Colab as a hosted Jupyter notebook service that requires no setup and provides a student-friendly browser interface.
-
-For most students, this is the easiest way to use the notebooks.
+For most students, Google Colab is the easiest way to use the notebooks because it works in a browser and does not require a local Python setup.
 
 ---
 
@@ -28,20 +26,6 @@ You will need:
 - access to the notebook files
 - access to the repo data files if the notebook uses a CSV
 
-Helpful starting point:
-- Google Colab home: https://colab.research.google.com/
-- Google Colab intro notebook: https://colab.research.google.com/notebooks/intro.ipynb
-
----
-
-## Best Student Start Path
-
-1. Open Google Colab
-2. Open the notebook you want to use
-3. Save your own copy if needed
-4. Run the cells from top to bottom
-5. Read the instructions before changing code
-
 Recommended first notebook:
 - `notebooks/00-notebook-basics-practice.ipynb`
 
@@ -51,18 +35,29 @@ For the full sequence, see:
 
 ---
 
+## Best Student Start Path
+
+1. Find the notebook you want to use in the repository.
+2. If the notebook is in **GitHub**, open it from Colab using the GitHub option.
+3. If the notebook is in **GitLab**, download the `.ipynb` file and upload it into Colab.
+4. Save your own copy if needed.
+5. Run the cells from top to bottom.
+6. Read the instructions before changing code.
+
+---
+
 ## Option 1: Open a Notebook From GitHub
 
-This is usually the best option once the repo is published.
+This is usually the easiest option when the notebook is stored in GitHub.
 
 ### Steps
 
-1. Go to Google Colab.
+1. Open Google Colab.
 2. In the file open window, choose the **GitHub** tab.
 3. Paste the repo URL or search for the repository.
 4. Select the notebook you want to open.
 5. Wait for it to load in Colab.
-6. Save a copy if you want to edit your own version.
+6. Save your own copy if you want to edit your own version.
 
 Why this is useful:
 - it lets students open notebooks directly from the repo
@@ -71,13 +66,35 @@ Why this is useful:
 
 ---
 
-## Option 2: Upload a Notebook File
+## Option 2: Open a Notebook From GitLab
+
+If the notebooks are stored in GitLab, the easiest student workflow is usually:
+
+### Steps
+
+1. Open the GitLab repository in your browser.
+2. Navigate to the `notebooks/` folder.
+3. Select the notebook you want to use.
+4. Download the `.ipynb` file.
+5. Open Google Colab.
+6. In the file open window, choose the **Upload** option.
+7. Upload the notebook file.
+8. Save your own copy if needed.
+
+### Best student rule
+
+- **GitHub repo** → open from Colab’s GitHub option
+- **GitLab repo** → download the notebook, then upload it into Colab
+
+---
+
+## Option 3: Upload a Notebook File Directly
 
 This is useful for pilots or when a notebook is shared directly.
 
 ### Steps
 
-1. Go to Google Colab.
+1. Open Google Colab.
 2. In the file open window, choose the **Upload** option.
 3. Select the `.ipynb` file from your computer.
 4. Wait for it to load.
@@ -87,7 +104,7 @@ This is simple, but students also need the data files if the notebook uses CSVs.
 
 ---
 
-## Option 3: Open From Google Drive
+## Option 4: Open From Google Drive
 
 This works well if notebooks are shared through Drive.
 
@@ -125,7 +142,7 @@ Remember:
 
 A good habit is to save your own working copy.
 
-If the notebook opens from GitHub or another shared source:
+If the notebook opens from GitHub, GitLab, or another shared source:
 - save a copy into your own Google Drive before doing a lot of work
 
 That way:
@@ -157,16 +174,30 @@ That helps, but students may still need to make sure the data file is available 
 If you get a `FileNotFoundError`, try these steps:
 
 1. Check whether the notebook uses a CSV file.
-2. Confirm that the data file was uploaded or is available in the same repo structure.
+2. Confirm that the data file is available along with the notebook.
 3. Re-run the setup cell near the top of the notebook.
 4. Print the data path being used.
 5. Ask your mentor whether you should:
    - upload the CSV manually
-   - open the notebook from GitHub instead
    - use a different folder location
+   - reopen the notebook from the repository
 
 A file path problem does not usually mean your code is wrong.
 It often means the notebook cannot see the data file yet.
+
+---
+
+## Best Workflow for Students Using GitLab
+
+If your class or team stores notebooks in GitLab, this is the simplest workflow:
+
+1. Open GitLab
+2. Download the notebook file
+3. Open Colab
+4. Upload the notebook
+5. Upload the matching CSV if the notebook needs one
+6. Save your own copy
+7. Start at the top and run the cells in order
 
 ---
 
@@ -206,25 +237,9 @@ Fix:
 
 ---
 
-## Best Advice for Students
-
-Use Colab as your workspace, not as the place where all your thinking happens.
-
-The important part is still:
-- reading the task
-- testing your code
-- checking outputs
-- using AI carefully
-- learning from mistakes
-
-Colab makes the notebooks easier to open.
-It does not replace problem solving.
-
----
-
 ## Final Reminder
 
-For most students, **Google Colab is the best default way to run these notebooks** because it is browser-based and easy to start with. Official Colab pages emphasize that it is a hosted Jupyter notebook service with zero setup and a student-friendly browser interface. citeturn640187search0
+For most students, Google Colab is the best default way to run these notebooks.
 
 After you open the notebook:
 - start with notebook 00
